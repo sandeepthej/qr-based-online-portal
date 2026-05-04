@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "_id": "local_1rmu2ynws",
+      "createdAt": "2026-05-04T09:14:26.097Z",
+      "updatedAt": "2026-05-04T09:14:26.097Z",
+      "username": "Master Admin",
+      "email": "admin@auto-fare.gov",
+      "password": "$2a$10$IpoW5f2/W1TGE71qO6OX4eRpo9DxUL7u/YTatxSvOtNB.29LoqoG.",
+      "role": "admin",
+      "isBanned": false
+    },
+    {
+      "_id": "local_yp8n5cjyf",
+      "createdAt": "2026-05-04T09:15:26.128Z",
+      "updatedAt": "2026-05-04T09:15:26.128Z",
+      "username": "sandeep",
+      "email": "sandeepthej1707@gmail.com",
+      "password": "$2a$10$YSosB1mdXPdE6ofdVApKBebuw3AbvD5aSTkF2Fn8TnPY3Tu5fiu/u",
+      "role": "passenger",
+      "isBanned": false
+    },
+    {
+      "_id": "local_msmgdpesz",
+      "createdAt": "2026-05-04T09:27:43.962Z",
+      "updatedAt": "2026-05-04T09:27:43.962Z",
+      "username": "shivam",
+      "email": "saiabhijeet55155@gmail.com",
+      "password": "$2a$10$9uuB2fsfqi4TG567HSdTVer2EIOLh5SyUJEgVfEAp5CxA7pYOVET.",
+      "role": "driver",
+      "isBanned": false,
+      "driverProfile": {
+        "vehicleNumber": "KA 01 AB 1234",
+        "licenseNumber": "DL-987654321",
+        "isVerified": false,
+        "driverReputationScore": 100,
+        "earnings": 0
+      }
+    }
+  ],
+  "complaints": [
+    {
+      "_id": "local_mc0umupjg",
+      "createdAt": "2026-05-04T09:19:29.761Z",
+      "updatedAt": "2026-05-04T09:36:18.137Z",
+      "complaintId": "CMP-1777886369761-5462",
+      "passenger": "sandeep",
+      "passengerEmail": "sandeepthej1707@gmail.com",
+      "driver": "Unknown Driver",
+      "driverEmail": "Unknown",
+      "vehicleNumber": "KA 01 AB 1234",
+      "pickupLocation": "majestrate metro station",
+      "dropLocation": "indiranagar metro",
+      "distanceKM": 4.5,
+      "farePaid": 250,
+      "expectedFare": 97.5,
+      "screenshotProof": "file:///C:/Users/SAIABH~1/AppData/Local/Temp/playwright-artifacts-Dba8kO/d3c2d98d-7222-47c9-98e0-9bfd7d9ac85a",
+      "additionalEvidence": "file:///C:/Users/SAIABH~1/AppData/Local/Temp/playwright-artifacts-Dba8kO/d3c2d98d-7222-47c9-98e0-9bfd7d9ac85a",
+      "gpsLocation": {
+        "lat": 12.825038137275063,
+        "lng": 80.0455203674745
+      },
+      "description": "HE CHARGED MORE LIKE ACTUAL PRICE IS 100 HE CHARGED 250",
+      "status": "Refund Initiated",
+      "complaintPriority": "High",
+      "fakeComplaintReason": "EXTRA PAYMENT15",
+      "penaltyAmount": 150
+    }
+  ],
+  "refunds": [
+    {
+      "_id": "local_rpddue2ow",
+      "createdAt": "2026-05-04T09:36:18.139Z",
+      "updatedAt": "2026-05-04T09:36:18.139Z",
+      "refundId": "REF-1777887378139-3922",
+      "complaintId": "CMP-1777886369761-5462",
+      "amount": 152.5,
+      "passengerEmail": "sandeepthej1707@gmail.com",
+      "status": "Pending"
+    }
+  ],
+  "notifications": [],
+  "adminLogs": [
+    {
+      "_id": "local_87e8c5qrg",
+      "createdAt": "2026-05-04T09:15:26.130Z",
+      "updatedAt": "2026-05-04T09:15:26.130Z",
+      "adminId": "System",
+      "adminEmail": "system@auto-fare.gov",
+      "action": "USER_REGISTERED",
+      "details": "PASSENGER sandeep registered."
+    },
+    {
+      "_id": "local_7yle4jp7a",
+      "createdAt": "2026-05-04T09:27:43.964Z",
+      "updatedAt": "2026-05-04T09:27:43.964Z",
+      "adminId": "System",
+      "adminEmail": "system@auto-fare.gov",
+      "action": "USER_REGISTERED",
+      "details": "DRIVER shivam registered."
+    },
+    {
+      "_id": "local_huum91qqk",
+      "createdAt": "2026-05-04T09:28:09.044Z",
+      "updatedAt": "2026-05-04T09:28:09.044Z",
+      "adminId": "local_1rmu2ynws",
+      "adminEmail": "admin@auto-fare.gov",
+      "action": "UPDATE_COMPLAINT_STATUS",
+      "details": "Complaint CMP-1777886369761-5462 changed to Submitted."
+    },
+    {
+      "_id": "local_krnw8xwii",
+      "createdAt": "2026-05-04T09:28:19.243Z",
+      "updatedAt": "2026-05-04T09:28:19.243Z",
+      "adminId": "local_1rmu2ynws",
+      "adminEmail": "admin@auto-fare.gov",
+      "action": "UPDATE_COMPLAINT_STATUS",
+      "details": "Complaint CMP-1777886369761-5462 changed to Submitted."
+    },
+    {
+      "_id": "local_ai5dt7sff",
+      "createdAt": "2026-05-04T09:29:07.763Z",
+      "updatedAt": "2026-05-04T09:29:07.763Z",
+      "adminId": "local_1rmu2ynws",
+      "adminEmail": "admin@auto-fare.gov",
+      "action": "UPDATE_COMPLAINT_STATUS",
+      "details": "Complaint CMP-1777886369761-5462 changed to Under Review."
+    },
+    {
+      "_id": "local_p6jjoxtiu",
+      "createdAt": "2026-05-04T09:29:21.851Z",
+      "updatedAt": "2026-05-04T09:29:21.851Z",
+      "adminId": "local_1rmu2ynws",
+      "adminEmail": "admin@auto-fare.gov",
+      "action": "UPDATE_COMPLAINT_STATUS",
+      "details": "Complaint CMP-1777886369761-5462 changed to Verified."
+    },
+    {
+      "_id": "local_vcanhqxvy",
+      "createdAt": "2026-05-04T09:34:00.032Z",
+      "updatedAt": "2026-05-04T09:34:00.032Z",
+      "adminId": "local_1rmu2ynws",
+      "adminEmail": "admin@auto-fare.gov",
+      "action": "UPDATE_COMPLAINT_STATUS",
+      "details": "Complaint CMP-1777886369761-5462 changed to Driver Notified."
+    },
+    {
+      "_id": "local_dfi0l2zvz",
+      "createdAt": "2026-05-04T09:36:02.542Z",
+      "updatedAt": "2026-05-04T09:36:02.542Z",
+      "adminId": "local_1rmu2ynws",
+      "adminEmail": "admin@auto-fare.gov",
+      "action": "UPDATE_COMPLAINT_STATUS",
+      "details": "Complaint CMP-1777886369761-5462 changed to Driver Notified."
+    },
+    {
+      "_id": "local_nh7p403nh",
+      "createdAt": "2026-05-04T09:36:18.141Z",
+      "updatedAt": "2026-05-04T09:36:18.141Z",
+      "adminId": "local_1rmu2ynws",
+      "adminEmail": "admin@auto-fare.gov",
+      "action": "UPDATE_COMPLAINT_STATUS",
+      "details": "Complaint CMP-1777886369761-5462 changed to Refund Initiated."
+    }
+  ]
+}
